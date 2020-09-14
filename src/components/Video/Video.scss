@@ -1,0 +1,119 @@
+@import '../../styles/common/Variable.scss';
+
+.video-container {
+    background-color: $green-color;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    > .container {
+        display: flex;
+        width: 1000px;
+        height: 260px;
+        margin-top: 160px;
+        position: relative;
+        
+
+        > .description-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 550px;
+            background-color: $white-color;
+            box-shadow: 3px 7px 47px #bcbcbc;
+
+            > .description-container {
+                width: 210px;
+                margin: 40px 0 0 100px;
+                width: 270px;
+                flex-direction: column;
+                display: flex;
+                
+                > .title {
+                    font-family: $font-family-bold;
+                    color: $pink-color;
+                    font-size: 27px;;
+                }
+
+                > .description {
+                    font-family: $font-family-light;
+                    font-size: 13px;
+                    padding: 18px 0;
+
+                    > .sub-title {
+                        font-family: $font-family-bold;
+                        font-weight: bolder;
+                    }
+                }
+            }
+
+        }
+
+        > .video-box {
+            cursor: pointer;
+            position: relative;
+            height: 220px;
+            width: 400px;
+            margin-left: -130px;
+            
+
+            > .video-img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-image: url('../../asserts/img/thumb-video.jpg');
+                background-position: center;
+                background-size: 120%;
+                background-repeat: no-repeat;
+                transition: all 350ms ease-in-out;
+
+                > .video-fade {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;                
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    transition: all 350ms ease-in-out;
+
+                    > .button-play {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 70px;
+                        width: 70px;
+                        border: solid 7px #EF426F;
+                        border-radius: 45px;
+                        transition: all 350ms ease-in-out;
+
+                        > .triangulo {
+                            color: $white-color;
+                            font-size: 30px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                transition: all 350ms ease-in-out;
+                > .video-img {
+                    background-size: 130%;
+                    transition: all 350ms ease-in-out;
+
+                    > .video-fade {
+                        background-color: rgba(0, 0, 0, 0.7);
+                        transition: all 350ms ease-in-out;
+
+                        > .button-play {
+                            background-color: $pink-color;
+                            transition: all 350ms ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

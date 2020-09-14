@@ -1,0 +1,32 @@
+@import '../../styles/common/Variable.scss';
+
+.header-body {
+    width: 100%;
+    min-height: 55px;
+    background-color: $white-color;
+    display: flex;
+    justify-content: space-between;
+    
+
+    > .logo-container {
+        margin: auto 12%;
+
+        > .logo {
+            height: 60px;
+            padding: 15px;
+        }
+    }
+
+    > .menu-container {
+        margin: auto 12%;
+        display: flex;
+        min-width: 150px;
+        justify-content: space-between;
+        font-family: "Muli";
+        font-size: 13px;
+
+        > .item-menu {
+            cursor: pointer;
+        }
+    }
+}

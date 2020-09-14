@@ -1,0 +1,33 @@
+@import '../../styles/common/Variable.scss';
+
+.button-container {
+    cursor: pointer;
+    background-color: $pink-color;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    box-shadow: 8px 8px $shadow-color;
+    transition: all 350ms ease-in-out;
+
+    > .text {
+        color: $white-color;
+        font-family: $font-family-bold;
+        font-size: 12px;
+        margin: auto;
+    
+        &::before {
+            content: 'QUERO ME CANDIDATAR';
+        }
+    }
+
+    &:hover {
+        transition: all 350ms ease-in-out;
+        box-shadow: 3px 3px $shadow-color;
+
+        > .text {
+            &::before {
+                content: 'QUERO ME INSCREVER';
+            }
+        }
+    }
+}
