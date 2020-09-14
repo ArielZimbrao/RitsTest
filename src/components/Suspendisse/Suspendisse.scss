@@ -41,6 +41,39 @@
     }
 
     > .access-container {
-        width: 50%;
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -70px;
+        margin: 15px 100px;
+
+        .icon-access {
+            height: 50px;
+        }
+
+        .text-access {
+            padding: 0 25px;
+            font-family: $font-family-light;
+            font-size: 14px;
+            margin: auto;
+
+            span {
+                font-family: $font-family-bold;
+            }
+        }
+
+        > .phone {
+            display: flex;
+            padding: 20px;
+        }
+        > .speaker {
+            display: flex;
+            padding: 20px;
+        }
+        > .class {
+            display: flex;
+            padding: 20px;
+        }
     }
 }
