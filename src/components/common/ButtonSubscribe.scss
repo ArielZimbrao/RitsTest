@@ -6,7 +6,7 @@
     width: 270px;
     height: 50px;
     display: flex;
-    box-shadow: 8px 8px $shadow-color;
+    box-shadow: 8px 8px $blue-color;
     transition: all 350ms ease-in-out;
 
     > .text {
@@ -22,7 +22,7 @@
 
     &:hover {
         transition: all 350ms ease-in-out;
-        box-shadow: 3px 3px $shadow-color;
+        box-shadow: 3px 3px $blue-color;
 
         > .text {
             &::before {
