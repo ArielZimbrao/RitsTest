@@ -1,12 +1,12 @@
 import React from 'react';
-import img from '../../asserts/img/consectetur-img.jpg'
+import img from '../../asserts/img/component1-img.jpg'
 import { ButtonSubscribe } from '../common/ButtonSubscribe'
-import './Consectetur.scss'
+import './Component1.scss'
 
-export class Consectetur extends React.Component {
+export class Component1 extends React.Component {
     render () {
         return (
-            <div className="consectetur-container">
+            <div className="component1-container">
                 <div className="subscribe-container">
                     <div className="text-container">
                         <span className="title">Consectetur adipiscing elit</span>

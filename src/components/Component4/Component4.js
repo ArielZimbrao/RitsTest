@@ -4,12 +4,12 @@ import img from '../../asserts/img/skype.jpg'
 import phone from  '../../asserts/img/phone.png'
 import speaker from '../../asserts/img/speaker.png'
 import classImg from '../../asserts/img/class.png'
-import './Suspendisse.scss';
+import './Component4.scss';
 
-export class Suspendisse extends React.Component {
+export class Component4 extends React.Component {
     render() {
         return (
-            <div className="suspendisse-container">
+            <div className="component4-container">
                 <div className="subscribe-container">
                     <div className="info">
                         <img className="img" src={img} alt=""/>

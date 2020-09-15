@@ -1,6 +1,6 @@
 @import '../../styles/common/Variable.scss';
 
-.video-container {
+.component2-container {
     background-color: $green-color;
     height: 380px;
     width: 100%;
@@ -51,7 +51,7 @@
 
         }
 
-        > .video-box {
+        > .component2-box {
             cursor: pointer;
             position: relative;
             height: 220px;
@@ -59,7 +59,7 @@
             margin-left: -130px;
             
 
-            > .video-img {
+            > .component2-img {
                 display: block;
                 width: 100%;
                 height: 100%;
@@ -69,7 +69,7 @@
                 background-repeat: no-repeat;
                 transition: all 350ms ease-in-out;
 
-                > .video-fade {
+                > .component2-fade {
                     display: flex;
                     align-items: center;
                     justify-content: center;                
@@ -99,11 +99,11 @@
 
             &:hover {
                 transition: all 350ms ease-in-out;
-                > .video-img {
+                > .component2-img {
                     background-size: 130%;
                     transition: all 350ms ease-in-out;
 
-                    > .video-fade {
+                    > .component2-fade {
                         background-color: rgba(0, 0, 0, 0.7);
                         transition: all 350ms ease-in-out;
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Video.scss';
+import './Component2.scss';
 
-export class Video extends React.Component {
+export class Component2 extends React.Component {
     render() {
         return (
-            <div className="video-container">
+            <div className="component2-container">
                 <div className="container">
                     <div className="description-box">
                         <div className="description-container">
@@ -15,9 +15,9 @@ export class Video extends React.Component {
                             </span>
                         </div>
                     </div>
-                    <div className="video-box">
-                        <div className="video-img">
-                            <div className="video-fade">
+                    <div className="component2-box">
+                        <div className="component2-img">
+                            <div className="component2-fade">
                                 <div className="button-play">
                                     <i class="fas fa-play triangulo"></i>
                                 </div>

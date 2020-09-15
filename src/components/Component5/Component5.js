@@ -1,14 +1,14 @@
 import React from 'react'
-import './Nullam.scss'
+import './Component5.scss'
 import microImg from '../../asserts/img/micro.png'
 import ideiaImg from '../../asserts/img/ideia.png'
 import pcImg from '../../asserts/img/pc.png'
 import { ButtonSubscribe } from '../common/ButtonSubscribe'
 
-export class Nullam extends React.Component {
+export class Component5 extends React.Component {
     render() {
         return (
-            <div className="nullam-container">
+            <div className="component5-container">
                 <div className="options-container">
                     <div className="options">
                         <div className="micro">

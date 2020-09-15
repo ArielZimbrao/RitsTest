@@ -1,11 +1,11 @@
 import React from 'react';
-import './UtEuDolor.scss';
-import img from '../../asserts/img/uteudolor.png'
+import './Component3.scss';
+import img from '../../asserts/img/component3.png'
 
-export class UtEuDolor extends React.Component {
+export class Component3 extends React.Component {
     render() {
         return (
-            <div className="uteudolor-container">
+            <div className="component3-container">
                 <div className="title-container">
                     <div className="title">Ut eu dolor vitae elit bibendum fringilla elit...</div>
                 </div>

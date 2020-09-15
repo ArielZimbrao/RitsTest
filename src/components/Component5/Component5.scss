@@ -1,6 +1,6 @@
 @import '../../styles/common/Variable.scss';
 
-.nullam-container {
+.component5-container {
     display: flex;
     justify-content: space-between;
     background-color: $white-color;
@@ -88,7 +88,7 @@
                 background-size: cover;
                 background-repeat: no-repeat; 
             }
-            
+
             > .subscribe-button {
                 position: relative;
                 top: -125px;
