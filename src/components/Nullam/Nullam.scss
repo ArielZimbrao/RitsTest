@@ -1,7 +1,99 @@
 @import '../../styles/common/Variable.scss';
 
 .nullam-container {
+    display: flex;
+    justify-content: space-between;
     background-color: $white-color;
     width: 100%;
-    height: 512px;
+    height: 440px;
+
+    > .options-container {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-around;
+
+        > .options {
+            width: 430px;
+            margin-left: 130px;
+            display: flex;
+            flex-direction: column;
+
+            .icon {
+                height: 50px;
+            }
+
+            .text {
+                padding: 0 25px;
+                font-family: $font-family-light;
+                font-size: 14px;
+                margin: auto;
+
+                span {
+                    font-family: $font-family-bold;
+                }
+            }
+
+            > .micro {
+                display: flex;
+                padding: 28px;
+                > .icon {
+                    margin: 0 6px;
+                }
+            }
+
+            > .ideia {
+                display: flex;
+                padding: 28px;
+            }
+
+            > .pc {
+                display: flex;
+                padding: 28px;
+            }
+        }
+    }
+
+    > .image-container {
+        display: flex;
+        width: 50%;
+
+        > .image {
+            width: 100%;
+            height: 100%;
+
+            > .description {
+                background-color: $pink-color;
+                font-family: $font-family-bold;
+                font-size: 23px;
+                color: #FFB81C;
+                width: 100%;
+                height: 70%;
+
+                > .text {
+                    padding: 60px 80px;
+                    width: 310px;
+                    span {
+                        color: $white-color;
+                    }
+                }
+            }
+
+            > .man-writer {
+                position: relative;
+                top: -100px;
+                height: 234px;
+                width: 490px;
+                background-image: url('../../asserts/img/man-writer.jpg');
+                background-size: cover;
+                background-repeat: no-repeat; 
+            }
+            
+            > .subscribe-button {
+                position: relative;
+                top: -125px;
+                left: 85px;
+            }
+        }
+    }
 }
