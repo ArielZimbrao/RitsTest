@@ -1,0 +1,98 @@
+@import '../../styles/common/Variable.scss';
+
+.component9-container {
+    width: 100%;
+    height: 715px;
+    background-color: $font-color;
+
+    > .description {
+        font-family: $font-family-bold;
+        color: $white-color;
+        font-size: 38px;
+        padding: 120px 0 50px 0;
+        margin: 0 20%;
+    }
+
+    > .plan-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20%;
+        height: 80%;
+
+        > .col-plans {
+            height: 80%;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+
+            .plan {
+                display: flex;
+                align-items: center;
+                background-color: #40464A;
+                width: 100%;
+                height: 80px;
+                margin: 2px 0;
+
+                .name {
+                    font-family: $font-family-bold;
+                    margin-left: 10%;
+                    font-size: 20px;
+                    width: 80%;
+                    color: #5F676C;
+                }
+
+                .arrow {
+                    background-image: url('../../asserts/img/arrow-gray.png');
+                    height: 30px;
+                    width: 20%;
+                    background-repeat: no-repeat;
+                    margin: auto;
+                
+                }
+            }
+
+            .select {
+                background-color: white;
+                box-shadow: 8px 8px $pink-color;
+                margin: 0 8px 8px 0;
+
+                .name {
+                    color: $pink-color;
+                }
+                .arrow {
+                    background-image: url('../../asserts/img/arrow-pink.png');
+                }
+            }
+        }
+
+        > .col {
+            height: 80%;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .opt {
+                background-color: #1D2327;
+                height: 16%;
+                color: $white-color;
+                width: 100%;
+                display: flex;
+                font-family: $font-family;
+
+                .value1 {
+                    width: 80%;
+                    font-size: 14px;
+                    padding: 15px 22px;
+                }
+
+                .value2 {
+                    padding: 15px 22px;
+                    font-size: 10px;
+                    color: $pink-color;
+                }
+            }
+        }
+    }
+}

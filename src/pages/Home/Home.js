@@ -9,20 +9,22 @@ import { Component5 } from '../../components/Component5/Component5'
 import { Component6 } from '../../components/Component6/Component6'
 import { Component7 } from '../../components/Component7/Component7'
 import { Component8 } from '../../components/Component8/Component8'
+import { Component9 } from '../../components/Component9/Component9'
 
 export class Home extends React.Component {
   render() {
     return (
       <div>
         <Header></Header>
-        <Component1></Component1>
-        <Component2></Component2>
-        <Component3></Component3>
-        <Component4></Component4>
-        <Component5></Component5>
-        <Component6></Component6>
-        <Component7></Component7>
-        <Component8></Component8>
+        <Component1/>
+        <Component2/>
+        <Component3/>
+        <Component4/>
+        <Component5/>
+        <Component6/>
+        <Component7/>
+        <Component8/>
+        <Component9/>
       </div>
     );
   }
