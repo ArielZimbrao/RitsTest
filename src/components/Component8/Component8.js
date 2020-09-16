@@ -17,6 +17,7 @@ export class Component8 extends React.Component {
                             et malesuada fames ac ante ipsum primis in faucibus. Suspendisse feugiat orci sed velit pulvinar pretium.
                         </div>
                         <div className="hsm"></div>
+                        <div className="line-hsm"></div>
                     </div>
                     <div className="pretium">
                         <div className="title">
@@ -28,6 +29,7 @@ export class Component8 extends React.Component {
                             Etiam ut pharetra urna, interdum malesuada quam. Aenean vel imperdiet urna.
                         </div>
                         <div className="harvard"></div>
+                        <div className="line-harvard"></div>
                     </div>
                     <div className="mauris">
                         <div className="title">
@@ -39,6 +41,7 @@ export class Component8 extends React.Component {
                             ornare vel libero eget, posuere malesuada lectus. Vestibulum quis lacus lacinia, porttitor felis aliquet, sollicitudin neque.
                         </div>
                         <div className="hsm-university"></div>
+                        <div className="line-university"></div>
                     </div>
                 </div>
             </div>

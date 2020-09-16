@@ -51,11 +51,16 @@
 
             .hsm {
                 background-image: url('../../asserts/img/hsm.png');
-                height: 100px;
+                height: 87px;
                 width: 75px;
                 margin: auto;
                 background-size: 80%;
                 background-repeat: no-repeat;
+            }
+
+            .line-hsm {
+                border-bottom: 4px solid $pink-color;
+                margin: 0px 25px;
             }
         }
         > .pretium {
@@ -67,11 +72,16 @@
 
             .harvard {
                 background-image: url('../../asserts/img/harvard.png');
-                height: 100px;
+                height: 87px;
                 width: 100px;
                 margin: auto;
                 background-size: 100%;
                 background-repeat: no-repeat;
+            }
+
+            .line-harvard {
+                border-bottom: 4px solid $green-color;
+                margin: 0px 25px;
             }
         }
         > .mauris {
@@ -83,11 +93,16 @@
 
             .hsm-university {
                 background-image: url('../../asserts/img/hsm-university.png');
-                height: 100px;
+                height: 87px;
                 width: 80px;
                 margin: auto;
                 background-size: 90%;
                 background-repeat: no-repeat;
+            }
+
+            .line-university {
+                border-bottom: 4px solid $blue-light-color;
+                margin: 0px 25px;
             }
         }
     }
