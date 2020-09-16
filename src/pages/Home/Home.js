@@ -10,6 +10,7 @@ import { Component6 } from '../../components/Component6/Component6'
 import { Component7 } from '../../components/Component7/Component7'
 import { Component8 } from '../../components/Component8/Component8'
 import { Component9 } from '../../components/Component9/Component9'
+import { Component10 } from '../../components/Component10/Component10'
 
 export class Home extends React.Component {
   render() {
@@ -25,6 +26,7 @@ export class Home extends React.Component {
         <Component7/>
         <Component8/>
         <Component9/>
+        <Component10/>
       </div>
     );
   }
