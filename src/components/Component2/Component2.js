@@ -19,7 +19,7 @@ export class Component2 extends React.Component {
                         <div className="component2-img">
                             <div className="component2-fade">
                                 <div className="button-play">
-                                    <i class="fas fa-play triangulo"></i>
+                                    <i className="fas fa-play triangulo"></i>
                                 </div>
                             </div>
                         </div>

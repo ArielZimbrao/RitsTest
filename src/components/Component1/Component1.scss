@@ -10,14 +10,12 @@
     > .subscribe-container { 
         width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
 
         > .text-container {
             display: flex;
             flex-direction: column;
             width: 286px;
-            margin-left: 200px;
 
             > .title {
                 font-family: $font-family-bold;
@@ -41,11 +39,28 @@
         position: relative;
 
         > .image {
-            width: 840px;
+            width: 55vw;
             height: 600px;
             background-size: cover;
             background-repeat: no-repeat;        
             background-image: url('../../asserts/img/component1-img.png');
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .component1-container {
+        .text-container {
+            margin-left: 20%;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .component1-container {
+        .text-container {
+            margin-left: 40%;
         }
     }
 }

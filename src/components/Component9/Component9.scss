@@ -98,21 +98,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .plan-options {
-        width: 80%;
-    }
+    .component9-container {
+        .plan-options {
+            width: 80%;
+        }
 
-    .description {
-        width: 80%;
+        .description {
+            width: 80%;
+        }
     }
 }
 
 @media screen and (min-width: 1025px) {
-    .plan-options {
-        width: 60%;
-    }
-
-    .description {
-        width: 60%;
+    .component9-container {
+        .plan-options {
+            width: 60%;
+        }
+    
+        .description {
+            width: 60%;
+        }
     }
 }
