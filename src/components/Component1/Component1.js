@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../asserts/img/component1-img.jpg'
 import { ButtonSubscribe } from '../common/ButtonSubscribe'
 import './Component1.scss'
 
@@ -18,7 +17,7 @@ export class Component1 extends React.Component {
                     </div>
                 </div>
                 <div className="image-container">
-                    <img className="img" src={img} alt=""></img>
+                    <div className="image"></div>
                 </div>
             </div>
         );

@@ -8,7 +8,6 @@
 
     > .contact-container {
         display: flex;
-        width: 60%;
         height: 80%;
         margin: auto;
         background-color: $white-color;
@@ -81,5 +80,17 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .contact-container {
+        width: 60%;
     }
 }

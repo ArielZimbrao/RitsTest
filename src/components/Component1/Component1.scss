@@ -39,9 +39,13 @@
 
     > .image-container {
         position: relative;
-        > .img {
+
+        > .image {
             width: 840px;
             height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;        
+            background-image: url('../../asserts/img/component1-img.png');
         }
     }
 }
